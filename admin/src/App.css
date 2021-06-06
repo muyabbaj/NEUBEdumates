@@ -1,0 +1,150 @@
+/* Admin Panal */
+body{
+  background-color: rgb(179, 176, 176)!important;
+}
+#leftSide{
+  background-color: rgb(44, 43, 43)!important;
+  height: 100vh;
+}
+#admin{
+  height: 50px;
+  width: 100%;
+  background-color: #2980B9;
+  position: relative;
+}
+#admin>h4{
+  text-align: center;
+  color: white;
+  margin-top: 9px;
+}
+.adminPic{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top:0px;
+  right: 40px;
+}
+.adminHeader{
+  text-align: center;
+  border-bottom: 1px solid white;
+  color:white;
+}
+.link{
+    color:white!important;
+}
+
+.nav-link:hover{
+  cursor: pointer;
+  background-color: rgb(122, 130, 238);
+}
+@media screen and (min-width: 768px) {
+  #leftSide{
+    display:block;
+  }
+  #responsiveNav{
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+    #leftSide{
+      display:none;
+    }
+    #admin{
+      display: none;
+    }
+    #responsiveNav{
+      display: block;
+      width: 100%!important;
+    }
+  }
+  /* Icon align adjust with text */
+.material-icons {
+  display:inline-flex;
+  vertical-align:top;
+}
+/* Add User */
+.addUserCard{
+  width: 80%;
+  margin:3% auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+.mycard{
+  margin: 30px;
+}
+
+input[type=text],input[type=password],input[type=file],input[type=email]{
+  padding: 7px;
+  margin: 5px 5px 5px 0px;
+  width: 100%;
+  border-radius: 8px;
+  border:1px solid rgb(8, 93, 252) ;
+}
+input[type=text]:focus{
+    outline: none !important;
+    border:1px solid rgb(8, 93, 252);
+    box-shadow: 0 0 10px #719ECE;
+}
+input[type=email]:focus{
+  outline: none !important;
+  border:1px solid rgb(8, 93, 252);
+  box-shadow: 0 0 10px #719ECE;
+}
+input[type=password]:focus{
+    outline: none !important;
+    border:1px solid rgb(8, 93, 252);
+    box-shadow: 0 0 10px #719ECE;
+}
+input[type=file]:focus{
+    outline: none !important;
+    border:1px solid rgb(8, 93, 252);
+    box-shadow: 0 0 10px #719ECE;
+}
+/* Add Notice*/
+textarea{
+  border:1px solid rgb(8, 93, 252) ;
+}
+textarea:focus{
+     outline: none !important;
+    border:1px solid rgb(8, 93, 252);
+    box-shadow: 0 0 10px #719ECE;
+}
+
+input[type=file] {
+  margin:10px 0px; 
+}
+select{
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border:1px solid rgb(8, 93, 252);
+  margin: 5px 0px 5px 0px!important;
+}
+select:focus{
+  outline: none !important;
+  border:1px solid rgb(8, 93, 252);
+  box-shadow: 0 0 10px #719ECE;
+}
+
+/* Dashboard */
+.infoCard{
+  border-radius: 20px!important;
+  box-shadow: 10px 10px 30px rgb(131, 129, 129);
+  height: 130px;
+  margin-bottom: 30px;
+  background-color: #3367D6!important;
+  color:white;
+  margin-top: 10px;
+
+}
+.infoCard:hover{
+  box-shadow: 10px 10px 20px rgb(210, 214, 211);
+}
+.infoTitle{
+  text-align: center;
+}
+.info{
+  text-align: center;
+}

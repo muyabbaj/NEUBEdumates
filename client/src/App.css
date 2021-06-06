@@ -1,0 +1,533 @@
+body {
+  background-color: rgb(231, 231, 231) !important;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-family: 'Grand Hotel', cursive;
+  margin-left: 30px;
+}
+
+.link {
+  color: white !important;
+}
+.link:hover {
+  color: white;
+}
+
+/* Home */
+.card {
+  border: none !important;
+}
+.home-card {
+  max-width: 600px;
+  height: max-content;
+  margin: 30px auto;
+  padding: 5;
+  position: relative;
+}
+
+.cardheader {
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+.userImg {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border: 1px solid gray;
+}
+.userName {
+  position: absolute;
+  left: 80px;
+  top: 8px;
+}
+
+.dateTime {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+.description {
+  margin-left: 10px;
+}
+
+.likeSection {
+  float: left;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.comment {
+  text-decoration: none !important;
+  color: black !important;
+}
+.comment:hover {
+  border: 1px solid #b9d8f9;
+}
+/* Home Left Side */
+
+.list-group {
+  margin-top: 30px;
+  width: 100%;
+}
+.list-group,
+.item {
+  text-align: center;
+  cursor: pointer;
+}
+.leftLink {
+  color: black;
+  font-size: 20px;
+}
+
+/* Signin Signup*/
+
+.mycard {
+  margin: 30px;
+}
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+.auth-card > h4 {
+  color: #1877f2;
+  font-weight: bold;
+  font-size: 30px;
+}
+.signin {
+  margin: 3px;
+  border-radius: 8px !important;
+  font-size: 18px !important;
+}
+input[type='text'],
+input[type='password'],
+input[type='file'],
+input[type='email'] {
+  padding: 7px;
+  margin: 5px 5px 5px 0px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgb(8, 93, 252);
+}
+textarea {
+  border: 1px solid rgb(8, 93, 252);
+}
+textarea:focus {
+  outline: none !important;
+  border: 1px solid rgb(8, 93, 252);
+  box-shadow: 0 0 10px #719ece;
+}
+input[type='text']:focus {
+  outline: none !important;
+  border: 1px solid rgb(8, 93, 252);
+  box-shadow: 0 0 10px #719ece;
+}
+input[type='email']:focus {
+  outline: none !important;
+  border: 1px solid rgb(8, 93, 252);
+  box-shadow: 0 0 10px #719ece;
+}
+input[type='password']:focus {
+  outline: none !important;
+  border: 1px solid rgb(8, 93, 252);
+  box-shadow: 0 0 10px #719ece;
+}
+input[type='file']:focus {
+  outline: none !important;
+  border: 1px solid rgb(8, 93, 252);
+  box-shadow: 0 0 10px #719ece;
+}
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid rgb(8, 93, 252);
+  margin: 5px 0px 5px 0px !important;
+}
+select:focus {
+  outline: none !important;
+  border: 1px solid rgb(8, 93, 252);
+  box-shadow: 0 0 10px #719ece;
+}
+
+.singinBtn {
+  background-color: #36a420 !important;
+  color: black !important;
+  width: 70%;
+  margin: 0 auto;
+}
+.createSignup {
+  font-weight: bold !important;
+  font-size: 15px;
+}
+
+/* My Following */
+.item {
+  width: 30%;
+}
+
+.collection-item {
+  width: 100%;
+}
+.postbtn {
+  width: 100px;
+}
+.postbtn:hover {
+  background-color: blue;
+}
+.createpost {
+  padding: 15px;
+  border-radius: 15px !important;
+}
+.createpost > h4 {
+  text-align: center;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+#toast-container {
+  top: 30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
+
+/* Start Profile */
+.profile {
+  width: 60%;
+  margin: 10px auto;
+}
+.profileDetails {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid gray;
+  background-color: white;
+}
+.userDetails {
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.profileBtn {
+  border: 2px solid gray !important;
+  color: gray !important;
+  background-color: white !important;
+  border-radius: 8px !important;
+  font-weight: bold !important;
+}
+
+.upload-btn-wrapper input[type='file'] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+/* End Profile */
+/* User Profile */
+.userProfileHeadrer {
+  max-width: 650px;
+  margin: 30px auto;
+  background-color: rgb(177, 177, 177);
+  padding: 10px;
+}
+/* Icon align adjust with text */
+.material-icons {
+  display: inline-flex;
+  vertical-align: top;
+}
+
+/* Class room */
+.createClassBtn {
+  margin-top: 20px;
+  margin-right: 15px;
+  text-align: end !important;
+}
+.createdClassCSS {
+  margin-top: 20px;
+}
+.classRoomCard {
+  border-radius: 20px !important;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: 10px 10px 30px rgb(100, 99, 99);
+}
+.classRoomCard:hover {
+  box-shadow: 10px 10px 30px rgb(233, 229, 229);
+}
+
+.headerImg {
+  width: 70px;
+  height: 70px;
+  margin: 10px 10px 0px 10px;
+  display: inline-block;
+}
+.teacherName {
+  display: inline;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  right: 3px;
+}
+.createdClassContent {
+  height: 250px;
+  margin-left: 20px;
+}
+.classRoomSection {
+  margin-top: 3% !important;
+  margin: 0 10%;
+  height: max-content;
+  border-radius: 15px !important;
+}
+
+.classRoomHeader {
+  position: relative;
+  overflow: hidden;
+}
+.classHeaderContent {
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  color: black;
+  font-weight: bold;
+}
+.classHeaderLink {
+  color: black;
+  font-weight: bold;
+}
+.classParentDiv {
+  width: 100%;
+}
+.shareClassCard {
+  width: 60%;
+  margin: 2% auto;
+}
+.shareClass {
+  position: relative;
+}
+.shareClass > p {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.shareClassBtn {
+  text-align: end;
+  margin-right: 11%;
+  padding-bottom: 2%;
+}
+.classPost {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+/* Notice */
+#noticeHeading {
+  background-color: darkslategrey;
+  padding: 1%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+@media screen and (max-width: 576px) {
+  #noticeHeading {
+    display: none;
+  }
+}
+.noticeRow {
+  padding: 1%;
+  margin-left: 1%;
+  border-bottom: 1px solid gray;
+}
+.noticeRow:last-child {
+  border-bottom: none;
+}
+.noticeRow:hover {
+  cursor: pointer;
+  background-color: rgb(235, 229, 229) !important;
+}
+
+/* E-Library */
+.libraryCard {
+  border-radius: 20px !important;
+  box-shadow: 10px 10px 30px rgb(131, 129, 129);
+  height: 250px;
+  margin-bottom: 30px;
+  background-color: #3367d6 !important;
+  color: white;
+}
+.libraryCard:hover {
+  box-shadow: 10px 10px 30px rgb(225, 235, 227);
+}
+.libraryBody > h4 {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+.libraryCard1 {
+  border-radius: 20px !important;
+  box-shadow: 10px 10px 30px rgb(131, 129, 129);
+  height: 250px;
+  margin-bottom: 30px;
+  background-color: #2980b9 !important;
+  color: white;
+}
+.libraryCard1:hover {
+  box-shadow: 10px 10px 30px rgb(225, 235, 227);
+}
+.libraryCard2 {
+  border-radius: 20px !important;
+  box-shadow: 10px 10px 30px rgb(131, 129, 129);
+  height: 250px;
+  margin-bottom: 30px;
+  background-color: #311b92 !important;
+  color: white;
+}
+.libraryCard2:hover {
+  box-shadow: 10px 10px 30px rgb(225, 235, 227);
+}
+.libraryCard3 {
+  border-radius: 20px !important;
+  box-shadow: 10px 10px 30px rgb(131, 129, 129);
+  height: 250px;
+  margin-bottom: 30px;
+  background-color: #37474f !important;
+  color: white;
+}
+.libraryCard3:hover {
+  box-shadow: 10px 10px 30px rgb(225, 235, 227);
+}
+.bookCard {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: 10px 10px 30px rgb(36, 3, 3);
+}
+.bookDetails {
+  margin: 5%;
+}
+.bookCard:hover {
+  box-shadow: 10px 10px 30px rgb(241, 237, 237);
+}
+/* Class Routine */
+.list {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.routine {
+  background-color: #343a40 !important;
+  color: white;
+  text-align: left;
+}
+.routine > ul > li {
+  margin-bottom: 10px;
+}
+.card-header {
+  background-color: white !important;
+}
+/* Question Bank */
+.questionPic {
+  height: 250px;
+}
+
+/* CGPA Calculator */
+.cgpaCalculator {
+  width: 95%;
+  margin: 1% auto;
+  background-color: white;
+}
+.cgpaCalculator > h2 {
+  text-align: center;
+}
+.cgpaCalculator > p {
+  text-align: center;
+}
+.mainPartOfCalculator {
+  margin-bottom: 1px;
+}
+.courseName {
+  width: 40%;
+}
+.courseGrade {
+  width: 25%;
+}
+.grade {
+  width: 25%;
+}
+.addCourse {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 48%;
+  position: relative;
+  color: white;
+  background-color: #23b8e6;
+}
+.addIcon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+.cgpaResult {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 46%;
+}
+/* Loading Screen */
+.body {
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: white;
+  margin: 0;
+}
+.loader {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to right, #14ffe9, #ffeb3b, #ff00e0);
+  padding: 5px;
+  border-radius: 50%;
+  animation: rotate 2s linear infinite;
+}
+.span {
+  width: 100px;
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  animation: rotateText 2s linear infinite;
+}
+.mainLoader {
+  width: 100px;
+  height: 100px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateText {
+  to {
+    transform: rotate(-360deg);
+  }
+}
